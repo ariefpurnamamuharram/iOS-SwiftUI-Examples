@@ -1,2 +1,11 @@
-# SwiftUI-Example
-Repositori ini berisi materi dan contoh-contoh belajar SwiftUI untuk iOS.
+# iOS Swift Examples
+iOS programming examples using Swift and SwiftUI.
+
+![Swift Logo](swift.png)
+
+## Prerequisite
+1. XCode
+
+## Contributors
+- Arief Purnama Muharram
+

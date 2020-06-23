@@ -15,6 +15,8 @@
 		E26E128A24A2171F0014A50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26E128824A2171F0014A50D /* LaunchScreen.storyboard */; };
 		E26E129524A2171F0014A50D /* Menu_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26E129424A2171F0014A50D /* Menu_ListTests.swift */; };
 		E26E12A024A2171F0014A50D /* Menu_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26E129F24A2171F0014A50D /* Menu_ListUITests.swift */; };
+		E26E12AE24A21A8E0014A50D /* JsonHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26E12AD24A21A8E0014A50D /* JsonHelper.swift */; };
+		E26E12B024A21C1D0014A50D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = E26E12AF24A21C1D0014A50D /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		E26E129B24A2171F0014A50D /* Menu ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Menu ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E26E129F24A2171F0014A50D /* Menu_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu_ListUITests.swift; sourceTree = "<group>"; };
 		E26E12A124A2171F0014A50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26E12AD24A21A8E0014A50D /* JsonHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHelper.swift; sourceTree = "<group>"; };
+		E26E12AF24A21C1D0014A50D /* menu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				E26E127D24A2171D0014A50D /* AppDelegate.swift */,
 				E26E127F24A2171D0014A50D /* SceneDelegate.swift */,
 				E26E128124A2171D0014A50D /* ContentView.swift */,
+				E26E12AD24A21A8E0014A50D /* JsonHelper.swift */,
+				E26E12AF24A21C1D0014A50D /* menu.json */,
 				E26E128324A2171F0014A50D /* Assets.xcassets */,
 				E26E128824A2171F0014A50D /* LaunchScreen.storyboard */,
 				E26E128B24A2171F0014A50D /* Info.plist */,
@@ -242,6 +248,7 @@
 			files = (
 				E26E128A24A2171F0014A50D /* LaunchScreen.storyboard in Resources */,
 				E26E128724A2171F0014A50D /* Preview Assets.xcassets in Resources */,
+				E26E12B024A21C1D0014A50D /* menu.json in Resources */,
 				E26E128424A2171F0014A50D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E26E127E24A2171D0014A50D /* AppDelegate.swift in Sources */,
+				E26E12AE24A21A8E0014A50D /* JsonHelper.swift in Sources */,
 				E26E128024A2171D0014A50D /* SceneDelegate.swift in Sources */,
 				E26E128224A2171D0014A50D /* ContentView.swift in Sources */,
 			);
